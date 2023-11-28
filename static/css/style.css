@@ -92,7 +92,7 @@ body {
     width: 100%;
     height: 38px;
     background-color: #101010;
-    background-image: url(/install/static/img/download.png);
+    background-image: url(../images/download.png);
     background-position: calc(100% - 20px) center;
     background-repeat: no-repeat;
     border: 1px solid #979797;
