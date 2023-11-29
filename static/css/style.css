@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     background-color: #000;
@@ -58,7 +59,7 @@ body {
     bottom: 0;
     left: 50%;
     width: 100%;
-    max-width: 1000px;
+    max-width: 500px;
     height: auto;
     margin: 0 auto;
     padding: 30px 50px;
@@ -106,7 +107,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 500ms linear;
-	text-align: center;
+    text-align: center;
 }
 
 .button:hover {
@@ -118,7 +119,7 @@ body {
         display: flex;
     }
 
-    .button + .button {
+    .button+.button {
         margin-left: 20px;
     }
 
@@ -130,7 +131,7 @@ body {
         margin-left: 175px;
     }
 
-    .button-secondary + .button-secondary {
+    .button-secondary+.button-secondary {
         margin-left: 40px;
     }
 
